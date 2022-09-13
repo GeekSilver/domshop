@@ -1,0 +1,10 @@
+@font-face {
+    font-family: LucidaBold;
+    src: url(./fonts/LucidaGrandeBold.ttf);
+}
+
+.LucidaBold{
+    font-family: LucidaBold;
+    font-weight: bold;
+}
+
