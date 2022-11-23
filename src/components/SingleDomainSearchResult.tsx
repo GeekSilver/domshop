@@ -1,9 +1,13 @@
-import React from "react";
+import React, { FC } from "react";
 
-const SingleDomainSearchResult = () => {
+import { Domain } from "../types";
+
+
+
+const SingleDomainSearchResult: FC<Domain> = ({Domain}) => {
     return (
         <div className="d-flex justify-content-between m-2">
-        <div>domainsample.com</div>
+        <div>{Domain}</div>
         <div>$10.24</div>
         <div>
           <button className="btn btn-sm btn-primary">Add to Cart</button>

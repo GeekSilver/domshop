@@ -1,11 +1,13 @@
-import React from "react";
+import React, { FC } from "react";
 import DomainSearchResults from "./DomainSearchResults";
 import ShoppingCart from "./ShoppingCart";
 
-const DomainSearchResultsAndShoppingCart = () => {
+import { DomainProps } from "../types";
+
+const DomainSearchResultsAndShoppingCart: FC<DomainProps> = ({domains}) => {
   return (
     <div className="row mt-5">
-      <DomainSearchResults />
+      <DomainSearchResults domains={domains} />
       <ShoppingCart />
     </div>
   );

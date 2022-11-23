@@ -10,7 +10,7 @@ function App() {
       <div className="container">
         <Navbar />
         <SearchDomain />
-        <DomainSearchResultsAndShoppingCart />
+        {/* <DomainSearchResultsAndShoppingCart /> */}
       </div>
     </div>
   );
